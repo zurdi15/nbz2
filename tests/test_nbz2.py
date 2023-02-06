@@ -1,9 +1,7 @@
 from pathlib import Path
-import sys
-sys.path.append(f"{Path(__file__).parent.parent.resolve()}/src")
 
-from nbz2.core import Core
-from nbz2.engine import Engine
+from nbz2.core.core import Core
+from nbz2.core.engine import Engine
 
 
 class TestNBZ2():
