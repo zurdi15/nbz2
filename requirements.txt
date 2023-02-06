@@ -1,0 +1,5 @@
+selenium==4.8.0
+webdriver-manager==3.8.5
+pyvirtualdisplay==3.0
+pytest==7.2.1
+textual[dev]==0.10.1

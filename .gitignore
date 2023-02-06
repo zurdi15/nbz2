@@ -1,0 +1,17 @@
+# IDEs
+.vscode
+
+# micromamba
+envs
+
+# __pycache__
+__pycache__
+.pytest.cache
+
+# Web drivers
+drivers
+
+# package
+dist
+*.egg-info
+build
