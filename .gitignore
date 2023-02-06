@@ -6,7 +6,7 @@ envs
 
 # __pycache__
 __pycache__
-.pytest.cache
+.pytest_cache
 
 # Web drivers
 drivers
@@ -14,4 +14,6 @@ drivers
 # package
 dist
 *.egg-info
-build
+
+# Ignore Gradle project-specific cache directory
+.gradle
