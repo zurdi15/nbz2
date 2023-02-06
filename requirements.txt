@@ -1,3 +1,4 @@
+# main dependencies
 selenium==4.8.0
 webdriver-manager==3.8.5
 pyvirtualdisplay==3.0
@@ -8,3 +9,8 @@ pytest==7.2.1
 
 # pypi management
 twine==4.0.2
+build==0.10.0
+
+# nbz2
+--extra-index-url https://test.pypi.org/simple/
+nbz2==0.0.3
